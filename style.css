@@ -1,0 +1,43 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  cursor: none;
+  display: flex;
+  color: black;
+  justify-content: center;
+  text-align: center;
+  font-size: 15vmax;
+  height: 100vh;
+  align-items: center;
+  background: linear-gradient(pink, rgb(75, 75, 249));
+}
+
+.cursor {
+  display: flex;
+  background-color: pink;
+  left: 0;
+  top: 0;
+  width: 35px;
+  height: 35px;
+  font-size: 16px;
+  position: absolute;
+  border-radius: 17.5px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.cursor_follower {
+  background-color: #6492fffc;
+  font-size: 16px;
+  transition: transform 0.5s;
+  width: 42px;
+  height: 42px;
+  color: whitesmoke;
+  border-radius: 21px;
+}
