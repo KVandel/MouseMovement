@@ -5,41 +5,70 @@
   padding: 0;
   box-sizing: border-box;
 }
-html {
-  cursor: none;
+html,
+body {
   display: flex;
-  color: black;
-  justify-content: center;
-  text-align: center;
-  font-size: 15vmax;
+  flex-direction: column;
+  cursor: none;
   height: 100vh;
-  align-items: center;
   background: linear-gradient(pink, rgb(75, 75, 249));
+  overflow: hidden;
 }
 
 .cursor {
   display: flex;
   background-color: pink;
-  background-image: url(photo/she.png);
+  background-image: url(photo/shepro2.jpeg);
+  background-size: contain;
   left: 0;
   top: 0;
-  width: 55px;
-  height: 55px;
+  width: 85px;
+  height: 85px;
   font-size: 16px;
   position: absolute;
-  border-radius: 27px;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
+  border-radius: 40.5px;
 }
 
 .cursor_follower {
   background-color: #6492fffc;
-  background-image: url(photo/smallme.jpg);
+  background-image: url(photo/mepro.jpg);
+  background-size: contain;
   font-size: 16px;
   transition: transform 0.5s;
-  width: 55px;
-  height: 52px;
+  width: 85px;
+  height: 85px;
   color: whitesmoke;
-  border-radius: 27px;
+  border-radius: 40.5px;
+}
+.Bg {
+  padding-top: 45%;
+
+  flex: 1;
+  color: black;
+
+  text-align: center;
+  font-size: 5em;
+}
+footer {
+  font-size: 16px;
+  padding: 20px;
+  text-align: center;
+}
+
+@media all and (max-width: 600px) {
+  .cursor {
+    background-color: pink;
+    width: 65px;
+    height: 65px;
+    font-size: 16px;
+    position: absolute;
+    border-radius: 32.5px;
+  }
+
+  .cursor_follower {
+    width: 65px;
+    height: 65px;
+    color: whitesmoke;
+    border-radius: 32.5px;
+  }
 }
