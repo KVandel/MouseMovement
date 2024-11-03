@@ -10,7 +10,7 @@ body {
   display: flex;
   flex-direction: column;
   cursor: none;
-  height: 100vh;
+  height: 100%;
   background: linear-gradient(pink, rgb(75, 75, 249));
   overflow: hidden;
 }
@@ -41,11 +41,11 @@ body {
   border-radius: 40.5px;
 }
 .Bg {
-  padding-top: 45%;
-
+  padding-top: 233px;
   flex: 1;
   color: black;
-
+  justify-content: center;
+  vertical-align: middle;
   text-align: center;
   font-size: 5em;
 }
