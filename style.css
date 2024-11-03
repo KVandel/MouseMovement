@@ -20,13 +20,14 @@ html {
 .cursor {
   display: flex;
   background-color: pink;
+  background-image: url(photo/she.png);
   left: 0;
   top: 0;
-  width: 35px;
-  height: 35px;
+  width: 55px;
+  height: 55px;
   font-size: 16px;
   position: absolute;
-  border-radius: 17.5px;
+  border-radius: 27px;
   text-align: center;
   align-items: center;
   justify-content: center;
@@ -34,10 +35,11 @@ html {
 
 .cursor_follower {
   background-color: #6492fffc;
+  background-image: url(photo/smallme.jpg);
   font-size: 16px;
   transition: transform 0.5s;
-  width: 42px;
-  height: 42px;
+  width: 55px;
+  height: 52px;
   color: whitesmoke;
-  border-radius: 21px;
+  border-radius: 27px;
 }
